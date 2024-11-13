@@ -1,0 +1,39 @@
+nav li {
+  display: inline;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  
+  article {
+    flex: 0 0 30%;
+    min-width: 80ch;
+    max-width: 80ch;
+  }
+
+  footer nav {
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+
+
+  footer button {
+    position: absolute;
+    min-width: 2rem;
+    min-height: 2rem;
+    border: 0;
+    border-radius: 20%;
+  }
+
+  header ul {
+    text-align: left;
+  }
+
+ 

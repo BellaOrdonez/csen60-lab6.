@@ -17,6 +17,7 @@ serve({
   port
 })
 
+
 app.use('/*', serveStatic({
   root: './static',
 }))
